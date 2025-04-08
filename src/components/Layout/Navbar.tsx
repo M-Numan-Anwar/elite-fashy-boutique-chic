@@ -31,12 +31,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <img 
-              src="/lovable-uploads/5d870798-b67c-4094-a05b-d910d9e425a8.png" 
-              alt="Elite Fashy Logo" 
-              className="h-16 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-105"
-            />
+          <Link to="/" className="text-xl font-bold text-elite-DEFAULT">
+            Elite Fashy
           </Link>
 
           {/* Desktop Navigation */}
