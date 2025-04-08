@@ -15,7 +15,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/5d870798-b67c-4094-a05b-d910d9e425a8.png" 
               alt="Elite Fashy Logo" 
-              className="h-16 w-auto"
+              className="h-20 w-auto object-contain mb-4 hover:scale-105 transition-transform"
             />
             <p className="text-gray-300 text-sm">
               Luxury handbags and accessories for the modern woman. Elevate your style with our curated collection.

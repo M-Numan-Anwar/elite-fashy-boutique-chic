@@ -35,7 +35,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/5d870798-b67c-4094-a05b-d910d9e425a8.png" 
               alt="Elite Fashy Logo" 
-              className="h-12 w-auto"
+              className="h-16 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-105"
             />
           </Link>
 
