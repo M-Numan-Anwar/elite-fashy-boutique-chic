@@ -1,5 +1,4 @@
-
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Search, Menu, X, User, Heart } from "lucide-react";
@@ -33,9 +32,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <h1 className="text-2xl md:text-3xl font-display font-bold gold-gradient tracking-wider">
-              ELITE FASHY
-            </h1>
+            <img 
+              src="/lovable-uploads/5d870798-b67c-4094-a05b-d910d9e425a8.png" 
+              alt="Elite Fashy Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

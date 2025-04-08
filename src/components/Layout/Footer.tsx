@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -13,7 +12,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Logo and About */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-display font-bold gold-gradient">ELITE FASHY</h2>
+            <img 
+              src="/lovable-uploads/5d870798-b67c-4094-a05b-d910d9e425a8.png" 
+              alt="Elite Fashy Logo" 
+              className="h-16 w-auto"
+            />
             <p className="text-gray-300 text-sm">
               Luxury handbags and accessories for the modern woman. Elevate your style with our curated collection.
             </p>
